@@ -1,0 +1,23 @@
+{
+  "name": "velluma",
+  "version": "0.1.0",
+  "private": true,
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "inspect": "node app/Velluma.mjs"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^4.3.4",
+    "@coinbase/onchainkit": "^1.1.2",
+    "@coinbase/cdp-sdk": "^1.40.1",
+    "@coinbase/agentkit": "^0.10.3",
+    "@coinbase/coinbase-sdk": "^1.0.0",
+    "@base-org/account-sdk": "^2.5.1",
+    "@base-org/node": "^1.0.0",
+    "viem": "^2.21.0",
+    "ethers": "^6.13.4",
+    "web3": "^4.12.1",
+    "axios": "^1.7.9"
+  }
+}
